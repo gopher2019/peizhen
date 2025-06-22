@@ -1,7 +1,12 @@
 import { createWebHashHistory, createRouter } from 'vue-router'
 
 import Layout from '../views/Main.vue';
+import Dashboard from '../views/dashboard.vue';
 import Login from '../views/login/index.vue';
+import Admin from '../views/auth/admin.vue';
+import Group from '../views/auth/group.vue';
+import Staff from '../views/vppz/staff.vue';
+import Order from '../views/vppz/order.vue';
 
 
 const routes = [
